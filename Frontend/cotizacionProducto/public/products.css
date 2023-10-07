@@ -1,0 +1,22 @@
+.containerProduct{
+    padding: 1rem 2rem;
+}
+.product{
+    background-color: rgb(70, 70, 70);
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    text-align: center;
+}
+.quantity{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+.buttons button:hover{
+    background-color: rgb(10, 110, 224);
+}

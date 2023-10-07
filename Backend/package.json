@@ -1,0 +1,27 @@
+{
+  "name": "cotizacion",
+  "version": "1.0.0",
+  "description": "Se realiza pagina de cotizacion de producto",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evy32/Cotizacion-de-Producto.git"
+  },
+  "author": "Vanessa Bernal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Evy32/Cotizacion-de-Producto/issues"
+  },
+  "homepage": "https://github.com/Evy32/Cotizacion-de-Producto#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.1",
+    "nodemon": "^3.0.1"
+  }
+}

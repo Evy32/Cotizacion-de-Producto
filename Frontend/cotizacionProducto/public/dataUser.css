@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    gap: 5vh;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+form div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    height: 3vh;
+}
+button:hover{
+    background-color: rgb(10, 110, 224);
+}
